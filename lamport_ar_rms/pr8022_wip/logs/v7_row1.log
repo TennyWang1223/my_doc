@@ -1,0 +1,111 @@
+[aiter] import [module_aiter_core] under /app/aiter/aiter/jit/module_aiter_core.so
+[aiter] import [module_aiter_core] under /app/aiter/aiter/jit/module_aiter_core.so
+[aiter] import [module_aiter_core] under /app/aiter/aiter/jit/module_aiter_core.so
+[aiter] import [module_aiter_core] under /app/aiter/aiter/jit/module_aiter_core.so
+[aiter] import [module_aiter_core] under /app/aiter/aiter/jit/module_aiter_core.so
+[aiter] AITER_REUSE_IDENTICAL_COMM_GROUPS resolved to False
+[aiter] ROCm version (10, 1, 0) from /usr/local/lib/python3.12/dist-packages/_rocm_sdk_core/.info/version
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] ROCm version (10, 1, 0) from /usr/local/lib/python3.12/dist-packages/_rocm_sdk_core/.info/version
+[aiter] ROCm version (10, 1, 0) from /usr/local/lib/python3.12/dist-packages/_rocm_sdk_core/.info/version
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] ROCm version (10, 1, 0) from /usr/local/lib/python3.12/dist-packages/_rocm_sdk_core/.info/version
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] import [module_custom_all_reduce_gfx1250] under /app/aiter/aiter/jit/module_custom_all_reduce_gfx1250.so
+[aiter] import [module_custom_all_reduce_gfx1250] under /app/aiter/aiter/jit/module_custom_all_reduce_gfx1250.so
+[aiter] import [module_custom_all_reduce_gfx1250] under /app/aiter/aiter/jit/module_custom_all_reduce_gfx1250.so
+[aiter] import [module_custom_all_reduce_gfx1250] under /app/aiter/aiter/jit/module_custom_all_reduce_gfx1250.so
+[aiter] load RCCL version: 2.30.7
+[aiter] Custom allreduce rank 0: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 1: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 3: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 2: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] import [module_custom_all_reduce] under /app/aiter/aiter/jit/module_custom_all_reduce.so
+[aiter] import [module_custom_all_reduce] under /app/aiter/aiter/jit/module_custom_all_reduce.so
+[aiter] import [module_custom_all_reduce] under /app/aiter/aiter/jit/module_custom_all_reduce.so
+[aiter] import [module_custom_all_reduce] under /app/aiter/aiter/jit/module_custom_all_reduce.so
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] message queue communication handle: Handle(local_reader_ranks=[1, 2, 3], buffer_handle=(3, 4194304, 6, 'psm_0c7af2cc'), local_subscribe_addr='ipc:///tmp/bbe19968-cbc4-4839-9274-ebec479a15ce', remote_subscribe_addr=None, remote_addr_ipv6=False)
+[aiter] load RCCL version: 2.30.7
+[aiter] Custom allreduce rank 0: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 1: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 3: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] Custom allreduce rank 2: input pool 1073741824 bytes; cutoffs AR 67108864 (prefill 67108864, plain 4194304), AG 134217728, RS 67108864 bytes.
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] CustomAllreduce input pool: torch.empty (expandable_segments=False, AITER_CUSTOM_AR_RAW_INPUT_POOL=False)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 Lamport fused AR + RMSNorm: up to 8388608 bytes (inbox 125829120 bytes per rank)
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] Custom allreduce gfx1250 transport: IPC (ROCm (10, 1, 0), IPC threshold (7, 14))
+[aiter] rank 3 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 3, EP rank 3
+[aiter] rank 0 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[aiter] rank 1 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 1, EP rank 1
+[aiter] rank 2 in world size 4 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 2, EP rank 2
+| q | n | m | KB | lamport us | gluon us | gluon/lamport | diff |
+|---|---|---|---|---|---|---|---|
+| 0 | 2048 | 1 | 4 | 5.51 | nan | nan |  | nan |
+| 0 | 2048 | 8 | 32 | 5.93 | nan | nan |  | nan |
+| 0 | 2048 | 64 | 256 | 6.57 | nan | nan |  | nan |
+| 0 | 2048 | 128 | 512 | 7.49 | nan | nan |  | nan |
+| 0 | 2048 | 256 | 1024 | 8.51 | nan | nan |  | nan |
+| 0 | 4096 | 1 | 8 | 7.13 | nan | nan |  | nan |
+| 0 | 4096 | 8 | 64 | 7.43 | nan | nan |  | nan |
+| 0 | 4096 | 64 | 512 | 8.47 | nan | nan |  | nan |
+| 0 | 4096 | 128 | 1024 | 9.71 | nan | nan |  | nan |
+| 0 | 4096 | 256 | 2048 | 12.31 | nan | nan |  | nan |
+| 0 | 6144 | 1 | 12 | 7.67 | nan | nan |  | nan |
+| 0 | 6144 | 8 | 96 | 8.03 | nan | nan |  | nan |
+| 0 | 6144 | 64 | 768 | 9.53 | nan | nan |  | nan |
+| 0 | 6144 | 128 | 1536 | 11.71 | nan | nan |  | nan |
+| 0 | 6144 | 256 | 3072 | 15.66 | nan | nan |  | nan |
+| 0 | 8192 | 1 | 16 | 8.26 | nan | nan |  | nan |
+| 0 | 8192 | 8 | 128 | 8.53 | nan | nan |  | nan |
+| 0 | 8192 | 64 | 1024 | 10.58 | nan | nan |  | nan |
+| 0 | 8192 | 128 | 2048 | 14.12 | nan | nan |  | nan |
+| 0 | 8192 | 256 | 4096 | 19.59 | nan | nan |  | nan |
+| 1 | 2048 | 1 | 4 | 5.73 | nan | nan |  | nan |
+| 1 | 2048 | 8 | 32 | 6.18 | nan | nan |  | nan |
+| 1 | 2048 | 64 | 256 | 6.91 | nan | nan |  | nan |
+| 1 | 2048 | 128 | 512 | 7.61 | nan | nan |  | nan |
+| 1 | 2048 | 256 | 1024 | 8.88 | nan | nan |  | nan |
+| 1 | 4096 | 1 | 8 | 7.34 | nan | nan |  | nan |
+| 1 | 4096 | 8 | 64 | 7.88 | nan | nan |  | nan |
+| 1 | 4096 | 64 | 512 | 8.99 | nan | nan |  | nan |
+| 1 | 4096 | 128 | 1024 | 10.43 | nan | nan |  | nan |
+| 1 | 4096 | 256 | 2048 | 12.78 | nan | nan |  | nan |
+| 1 | 6144 | 1 | 12 | 8.07 | nan | nan |  | nan |
+| 1 | 6144 | 8 | 96 | 8.43 | nan | nan |  | nan |
+| 1 | 6144 | 64 | 768 | 10.03 | nan | nan |  | nan |
+| 1 | 6144 | 128 | 1536 | 12.04 | nan | nan |  | nan |
+| 1 | 6144 | 256 | 3072 | 16.22 | nan | nan |  | nan |
+| 1 | 8192 | 1 | 16 | 8.70 | nan | nan |  | nan |
+| 1 | 8192 | 8 | 128 | 9.02 | nan | nan |  | nan |
+| 1 | 8192 | 64 | 1024 | 11.33 | nan | nan |  | nan |
+| 1 | 8192 | 128 | 2048 | 14.60 | nan | nan |  | nan |
+| 1 | 8192 | 256 | 4096 | 20.10 | nan | nan |  | nan |
